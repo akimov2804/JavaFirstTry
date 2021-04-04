@@ -1,0 +1,6 @@
+.newElement{
+    -fx-background-color: darkred;
+    -fx-font-family: Candara;
+    -fx-font-size: 18px;
+    -fx-text-fill: white;
+}

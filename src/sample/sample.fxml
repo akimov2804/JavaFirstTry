@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" vgap="10" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <columnConstraints>
+        <ColumnConstraints />
+      <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+      <RowConstraints />
+    </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="1070.0" prefWidth="2054.0">
+         <children>
+            <GridPane prefHeight="799.0" prefWidth="1270.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="629.3999633789062" minWidth="10.0" prefWidth="290.1999816894531" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="979.8000183105469" minWidth="10.0" prefWidth="979.8000183105469" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="414.6000061035156" minHeight="10.0" prefHeight="400.40000610351564" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="383.1999877929687" minHeight="10.0" prefHeight="353.59999389648436" vgrow="NEVER" />
+              </rowConstraints>
+               <children>
+                  <AnchorPane prefHeight="330.0" prefWidth="279.0" styleClass="paneElement" GridPane.rowIndex="2">
+                     <children>
+                        <Button fx:id="newButton" layoutY="21.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="300.0" styleClass="newElement" stylesheets="@style.css" text="Кнопка" AnchorPane.leftAnchor="0.0">
+                           <font>
+                              <Font size="15.0" />
+                           </font></Button>
+                        <Button fx:id="newSwitcher" layoutY="56.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="300.0" styleClass="newElement" stylesheets="@style.css" text="Переключатель" AnchorPane.leftAnchor="0.0">
+                           <font>
+                              <Font size="15.0" />
+                           </font></Button>
+                        <Button fx:id="newCheckbox" layoutY="92.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="300.0" styleClass="newElement" stylesheets="@style.css" text="Индикатор" AnchorPane.leftAnchor="0.0">
+                           <font>
+                              <Font size="15.0" />
+                           </font></Button>
+                        <Button fx:id="newImage" layoutY="128.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="300.0" styleClass="newElement" stylesheets="@style.css" text="Изображение" AnchorPane.leftAnchor="0.0">
+                           <font>
+                              <Font size="15.0" />
+                           </font></Button>
+                        <Button fx:id="newValueBox" layoutY="164.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="300.0" styleClass="newElement" stylesheets="@style.css" text="Числовое значение" AnchorPane.leftAnchor="0.0">
+                           <font>
+                              <Font size="15.0" />
+                           </font></Button>
+                        <Button fx:id="newTextbox" layoutY="200.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="300.0" styleClass="newElement" stylesheets="@style.css" text="Текст" AnchorPane.leftAnchor="0.0">
+                           <font>
+                              <Font size="15.0" />
+                           </font></Button>
+                        <Button fx:id="newLine" layoutY="236.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="300.0" styleClass="newElement" stylesheets="@style.css" text="Линия" AnchorPane.leftAnchor="0.0">
+                           <font>
+                              <Font size="15.0" />
+                           </font></Button>
+                        <Button fx:id="newRectangle" layoutY="272.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="300.0" styleClass="newElement" stylesheets="@style.css" text="Прямоугольник" AnchorPane.leftAnchor="0.0">
+                           <font>
+                              <Font size="15.0" />
+                           </font></Button>
+                        <Button fx:id="newEllipse" layoutY="307.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="300.0" styleClass="newElement" stylesheets="@style.css" text="Эллипс" AnchorPane.leftAnchor="0.0">
+                           <font>
+                              <Font size="15.0" />
+                           </font></Button>
+                        <Button fx:id="newPolygon" layoutY="343.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="300.0" styleClass="newElement" stylesheets="@style.css" text="Многоугольник" AnchorPane.leftAnchor="0.0">
+                           <font>
+                              <Font size="15.0" />
+                           </font></Button>
+                     </children>
+                  </AnchorPane>
+                  <Pane id="workPane" fx:id="workPane" prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+               </children>
+            </GridPane>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

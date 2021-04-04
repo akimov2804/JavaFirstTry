@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="4d87e773-893a-4533-857e-bfc23a85e49e" name="InterfaceDesigner">
+        <fileTransfer rootFolder="/home/tyoma/projects/InterfaceDesigner" accessType="SFTP" host="192.168.30.128" port="22" sshConfigId="40da6cfd-aa84-40ba-84d1-7ab31e5b5536" sshConfig="tyoma@192.168.30.128:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

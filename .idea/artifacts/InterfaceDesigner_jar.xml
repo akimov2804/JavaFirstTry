@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="InterfaceDesigner:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/InterfaceDesigner_jar</output-path>
+    <root id="archive" name="InterfaceDesigner.jar">
+      <element id="module-output" name="InterfaceDesigner" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../../../Downloads/jfoenix-8.0.10.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

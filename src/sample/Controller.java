@@ -61,6 +61,7 @@ public class Controller {
     }
     public double X = 0;
     public double Y = 0;
+    public int count = 0;
     public void EventList(Button element, Pane workPane){
         element.setOnAction(event -> {
             CreateControl(element, workPane, 0, 0);
@@ -84,15 +85,16 @@ public class Controller {
         });
     }
     public void CreateControl(Button element, Pane workPane, double X, double Y){
+        count++;
         if (element.getText().equals("Кнопка"))
-            workPane.getChildren().add(new NewButton(X, Y));
+            workPane.getChildren().add(new NewButton(X, Y, count));
         if (element.getText().equals("Переключатель"))
-            workPane.getChildren().add(new NewSwitcher(X, Y));
+            workPane.getChildren().add(new NewSwitcher(X, Y, count));
         if (element.getText().equals("Индикатор"))
-            workPane.getChildren().add(new NewCheckbox(X, Y));
+            workPane.getChildren().add(new NewCheckbox(X, Y, count));
         if (element.getText().equals("Текст"))
-            workPane.getChildren().add(new NewTextbox(X, Y));
+            workPane.getChildren().add(new NewTextbox(X, Y, count));
         if (element.getText().equals("Числовое значение"))
-            workPane.getChildren().add(new NewValuebox(X, Y));
+            workPane.getChildren().add(new NewValuebox(X, Y, count));
     }
 }
